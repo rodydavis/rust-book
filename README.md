@@ -9,3 +9,7 @@ https://doc.rust-lang.org/book/
 ## Installing Rust
 
 `curl https://sh.rustup.rs -sSf | sh`
+
+- Fixed Issue with VSCode:
+
+https://github.com/rust-lang/rls-vscode/issues/577
