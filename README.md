@@ -10,6 +10,17 @@ https://doc.rust-lang.org/book/
 
 `curl https://sh.rustup.rs -sSf | sh`
 
-- Fixed Issue with VSCode:
+## Bugs
+
+- Fixed issue with VSCode Rust extension not seeing rustup
 
 https://github.com/rust-lang/rls-vscode/issues/577
+
+Updated my vscode settings file:
+
+```json
+{
+    "rust-client.enableMultiProjectSetup": true,
+    "rust-client.rustupPath": "/Users/rodydavis/.cargo/bin/rustup",
+}
+```
